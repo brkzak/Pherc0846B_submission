@@ -1,0 +1,17 @@
+# Python 3.14 (villa's vesuvius package requires >=3.14,<3.15).
+#   uv venv --python 3.14 .venv && uv pip install --python .venv -r requirements.txt
+# villa's vesuvius, pinned by commit; label-transfer brings the tifxyz geometry deps (scipy, tifffile, imagecodecs).
+vesuvius[label-transfer] @ git+https://github.com/ScrollPrize/villa@b29f310957c7b29e7d332f9876e0e487819cfaa3#subdirectory=vesuvius
+# reader-v3's network (vesuvius' models extra without villa's monorepo-only C++ package)
+torch
+torchvision
+timm>=1.0.30
+einops>=0.8.2
+huggingface_hub
+# I/O and images
+zarr>=3
+numcodecs
+tifffile
+imagecodecs
+scipy
+pillow

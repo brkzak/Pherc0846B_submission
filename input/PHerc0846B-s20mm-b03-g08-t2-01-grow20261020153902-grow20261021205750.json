@@ -1,0 +1,8 @@
+{
+  "volume": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0846B/volumes/20250804142305-9.362um-1.2m-113keV-masked.zarr",
+  "voxel_um": 9.362,
+  "flip_normals": false,
+  "batch_size": 4,
+  "workers": 8,
+  "show": true
+}
